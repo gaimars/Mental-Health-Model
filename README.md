@@ -11,6 +11,13 @@ This project implements a machine learning pipeline to predict mental health sta
 - Supports text-based user input
 - Modular code structure (templates, static files, model scripts)
 
+## 🛠 Tech Stack
+- **Python & Flask** – backend API and web app
+- **scikit-learn, pandas, numpy** – machine learning & data processing
+- **HTML templates (Flask/Jinja2)** – simple web interface
+- **Pickled model artifacts (.pkl)** – model, vectorizer, label encoder
+- **Google Colab / Jupyter Notebook** – model development and experimentation
+
 
 ## Repository Structure
 
@@ -74,7 +81,7 @@ python eai6020_module3_assigment3_gaimars.py
 
 The Flask API is located in the `app.py` file. It:
 - Loads the pre-trained model and TF-IDF vectorizer.
-- Provides a simple web interface for users to enter a movie review.
+- Provides a simple web interface for users to enter text.
 - Processes the text input and returns the predicted mental health status.
 
 To run the Flask API, execute:
@@ -106,7 +113,7 @@ These metrics provide insights into the model's effectiveness in predicting ment
 
 ## License
 
-This project is provided for educational purposes.
+This project is provided for educational purposes only.
 
 ## Contact
 
