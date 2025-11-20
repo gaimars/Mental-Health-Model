@@ -2,7 +2,15 @@
 
 ## Overview
 
-This project implements a machine learning pipeline to predict mental health status based on input text data. The solution includes data preprocessing (label encoding, vectorization), model training using Logistic Regression, evaluation using standard classification metrics, and deployment via a Flask API. The objective is to provide a simple yet effective tool for predicting mental health conditions based on textual input.The model classifies text as Normal,Anxiety, Bipolar, Depression, Normal, Personality Disorder, Stress, Suicidal
+This project implements a machine learning pipeline to predict mental health status based on input text data. The solution includes data preprocessing (label encoding, vectorization), model training using Logistic Regression, evaluation using standard classification metrics, and deployment via a Flask API. The objective is to provide a simple yet effective tool for predicting mental health conditions based on textual input.The model classifies text as Normal,Anxiety, Bipolar, Depression, Normal, Personality Disorder, Stress, Suicidal.
+
+## ⭐ Features
+- Interactive mental health support chatbot built with Flask
+- Uses trained machine learning model for classification/prediction
+- Clean UI 
+- Supports text-based user input
+- Modular code structure (templates, static files, model scripts)
+
 
 ## Repository Structure
 
